@@ -4,35 +4,35 @@
   <meta charset="UTF-8">
   <title>Portafolio - Maycol López</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <h1>MAYCOL LOPEZ</h1>
-    <p>Estudiante de Ingeniería de Sistemas | Diseñador Gráfico | Community Manager</p>
-    <img width="200px" src="https://img.freepik.com/psd-gratis/ilustracion-3d-avatar-o-perfil-humano_23-2150671142.jpg?semt=ais_hybrid&w=740" alt="foto maycol">
+    <p id="descripcion" >Estudiante de Ingeniería de Sistemas | Diseñador Gráfico | Community Manager</p>
+    <img  id="foto_perfil" src="https://img.freepik.com/psd-gratis/ilustracion-3d-avatar-o-perfil-humano_23-2150671142.jpg?semt=ais_hybrid&w=740" alt="foto maycol">
     <marquee>“Me encanta conocer nuevas tecnologías y aplicarlas a mi contexto”</marquee>
   </header>
 
   <main>
 
-    <section>
+    <div class="sobre_mi">
       <h2>Sobre mí</h2>
       <p>Soy Maycol Norbert López Huallpara, un joven apasionado por la tecnología, el diseño gráfico y el marketing digital. Estudio Ingeniería de Sistemas en la Universidad Privada Franz Tamayo y me encanta aprender constantemente para poder transformar comunidades con tecnología.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>Sobre mi</h2>
+    <div class="sobre_mi">
       <ul>
         <li>Tengo experiencia en diseño de identidad visual y redes sociales.</li>
         <li>Me adapto rápidamente y trabajo bien en equipo o de forma autónoma.</li>
         <li>Soy creativo, responsable y detallista en cada proyecto.</li>
         <li>Siempre estoy aprendiendo nuevas tecnologías y herramientas.</li>
       </ul>
-    </section>
+    </div>
 
     <section>
-      <h2>Habilidades Técnicas</h2>
+      <h2 class="habilidades" >Habilidades Técnicas</h2>
       <ul>
         <li>Diseño en Canva</li>
         <li>Edición de video en CapCut</li>
@@ -42,7 +42,7 @@
     </section>
 
     <section>
-      <h2>Proyectos Personales</h2>
+      <h2 class="experiencia" >Proyectos Personales</h2>
       <ul>
         <li><strong>Identidad visual para Librería Zaimar:</strong> logotipo, branding y ventas.</li>
         <li><strong>Contenido digital, Orgánicamente M&P:</strong> diseño gráfico, publicaciones y estrategias.</li>
@@ -51,7 +51,7 @@
     </section>
 
     <section>
-      <h2>Educación</h2>
+      <h2 class="formacion" >Educación</h2>
       <ul>
         <li>Ingeniería de Sistemas - Univ. Franz Tamayo (En curso)</li>
         <li>Unidad Educativa Néstor Paz Zamora - Bachiller</li>
@@ -59,7 +59,7 @@
     </section>
 
     <section>
-      <h2>Formación Complementaria</h2>
+      <h2 class="formacion" >Formación Complementaria</h2>
       <ul>
         <li>Frontend con Inteligencia Artificial | Dev.F</li>
         <li>Marketing Digital | ConexiónLab (BID)</li>
@@ -69,7 +69,7 @@
     </section>
 
     <section>
-      <h2>Experiencia Profesional</h2>
+      <h2 class="experiencia" >Experiencia Profesional</h2>
       <ul>
         <li>Diseñador gráfico| Orgánicamente, M&P</li>
         <li>Diseñador de marca y ventas | Librería Zaimar</li>
@@ -78,7 +78,7 @@
     </section>
 
     <section>
-      <h2>Formulario de Contacto</h2>
+      <h2 class="contacto">Formulario de Contacto</h2>
       <form action="#" method="post">
         <label for="nombre">Nombre:</label><br>
         <input type="text" id="nombre" name="nombre"><br><br>
@@ -89,7 +89,7 @@
         <label for="mensaje">Mensaje:</label><br>
         <textarea id="mensaje" name="mensaje" rows="5" cols="40"></textarea><br><br>
 
-        <button type="submit">Enviar</button>
+        <button id="formulario_enviar" type="submit">Enviar</button>
       </form>
     </section>
 
@@ -97,9 +97,9 @@
 
   <footer>
     <h3>Redes Sociales</h3>
-    <a href="#"><img width="60px" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="logo instagram"></a>
-    <a href="#"><img width="60px" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png" alt="logo facebook"></a>
-    <a href="#"><img width="60px" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="logo github"></a>
+    <a href="#"><img class="redes_sociales" width="60px" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="logo instagram"></a>
+    <a href="#"><img class="redes_sociales" width="60px" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png" alt="logo facebook"></a>
+    <a href="#"><img class="redes_sociales" width="60px" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="logo github"></a>
   </footer>
 
 </body>
