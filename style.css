@@ -45,3 +45,19 @@ scale: 1.20;
 li{
     color: yellow; 
 }
+
+.seccion_extra {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightgreen;
+    font-size: 18px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    border: 2px solid lightgreen;
+    border-radius: 12px;
+}
+
+.seccion_extra div {
+    padding: 10px;
+    border-left: 3px solid lightgreen;
+    margin-left: 10px;
+}
